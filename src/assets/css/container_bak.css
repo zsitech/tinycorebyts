@@ -1,0 +1,105 @@
+/* 左上角图标 */
+.img-div {
+    width: 200px;
+    height: 60px;
+    background-color: #293042;
+      background:url('../element-plus.svg') no-repeat center / 72%;
+      border: none;
+  }
+  
+  .el-header {
+    height: 40px;
+    position: relative;
+    /* padding: 0; */
+  }
+  /* 以下处理header的右侧部分 */
+  .header-left {  
+    float: left;
+    height: 40px;
+    font-size: 18px;
+    color: #293042;
+    cursor: pointer;
+  }
+  .header-right {  
+    display: flex;
+    height: 40px;
+    float: right;
+    align-items: right;    
+  }
+  .right-search-notice {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .right-user {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      margin-left: 10px;
+  }
+  .class-avatar {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: 2px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  /* 以上处理header的右侧部分 */
+  
+  /* 内容充满网页 */
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .el-header {  
+    float: right;
+    background-color: #fff;
+    text-align: right;
+    line-height: 60px;
+    padding-bottom: 5px;
+  }
+  
+  .el-aside {
+    height: 100%;
+    background-color: #293042;
+    color: #fff;
+    text-align: left;
+    line-height: 200px;
+    /* 侧边栏折叠动画速度 */
+    transition: width 0.75s;
+    -webkit-transition: width 0.75s;
+    -moz-transition: width 0.75s;
+    -webkit-transition: width 0.75s;
+    -o-transition: width 0.75s;
+  }
+  
+  .el-main {
+    /* background-color: #E9EEF3; */
+    background-color: white;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+  }
+  
+
+
+  /* 解决菜单右侧有几个像素会产出aside */
+  .el-menu {
+    /* border: none; */
+    border-right: none;
+  }
+
+  .el-menu-vertical:not(.el-menu--collapse) {
+    width: 200px;
+    /* min-height: 400px; */
+  }
+

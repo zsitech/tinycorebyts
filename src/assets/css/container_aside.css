@@ -1,0 +1,19 @@
+/* 左上角图标 */
+.img-div {
+  width: 90%;
+  height: 60px;
+  background-color: red;
+    background:url('../element-plus.svg') no-repeat center / 72%;
+    border: none;
+}
+/* 解决菜单右侧有几个像素会产出aside 写在这里没用*/
+/* .el-menu {
+  border-right-width: 0;
+} */
+
+/* */
+.el-menu-item:focus .el-menu-item:hover{
+  background-color: #1890ff;
+}
+
+  
